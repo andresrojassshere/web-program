@@ -2,11 +2,12 @@ import React from "react"
 import {Header, Body, Footer, Button} from "./components"
 function App(){
 
-  const divStyle = {
+  const divButtonStyle = {
+    width: '100%',
+    heigth: '100%',
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',
-    width: '100%',
     margin: '0px'
 }
 
@@ -14,7 +15,7 @@ function App(){
         <>
           <Header />
           <Body />
-          <div style={divStyle}>
+          <div style={divButtonStyle}>
             <Button label="add"/>
             <Button label="substract"/>
           </div>
