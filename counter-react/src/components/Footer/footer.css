@@ -2,5 +2,6 @@
     display: flex;
     justify-content: space-between;
     background-color: "#f1f1f1";
-    padding: "2rem 2em"
+    padding: "2rem 2em";
+    margin-top: 100px;
 }
