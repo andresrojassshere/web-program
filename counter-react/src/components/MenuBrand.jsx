@@ -1,6 +1,6 @@
 export function MenuBrand({ img }) {
   const tittleStyle = {
-    color: "beige",
+    color: "black",
   };
 
   return (

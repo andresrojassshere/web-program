@@ -1,24 +1,17 @@
 import React from "react";
-import { Header, Body, Footer, Button } from "./components";
+import { Header, Body, Footer, Button, Number } from "./components";
 function App() {
   const backgroundStyle = {
-    background: "url('https://f4.bcbits.com/img/a1924344540_10.jpg')",
+    background: "white",
     backgroundSize: "cover",
   };
 
   const divButtonStyle = {
-    width: "84.4%",
+    width: "100%",
     heigth: "100%",
     display: "flex",
     justifyContent: "center",
     alignItems: "center",
-    margin: "0px",
-    borderBottomLeftRadius: "20%",
-    borderBottomRightRadius: "20%",
-    background: "rgba( 120,185,213)",
-    border: "2px solid black",
-    marginRight: "100px",
-    marginLeft: "100px",
   };
 
   return (
@@ -28,6 +21,7 @@ function App() {
         <Body />
         <div style={divButtonStyle}>
           <Button label="add" />
+          <Number />
           <Button label="substract" />
         </div>
         <Footer />

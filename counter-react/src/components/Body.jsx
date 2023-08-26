@@ -6,8 +6,7 @@ export function Body() {
     alignItems: "center",
     background: "url('https://wallpaperaccess.com/full/8738924.jpg')",
     backgroundSize: "cover",
-    borderTopLeftRadius: "30px",
-    borderTopRightRadius: "30px",
+    borderRadius: "2%",
     marginRight: "100px",
     marginLeft: "100px",
   };
@@ -24,7 +23,7 @@ export function Body() {
     <main>
       <section style={containerStyle}>
         <img
-          src="https://m.media-amazon.com/images/I/51A445eaJrL._AC_UF894,1000_QL80_.jpg"
+          src="https://www.richter-messzeuge.de/fileadmin/products/972.png"
           style={imageStyle}
           alt="Descripción de la imagen"
         />
