@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.character-card {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-character {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.card-info {
+  padding: 15px;
+}
+
+.icon-filter {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0px;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+.icon-filter .icon {
+  width: 30px;
+  height: 30px;
+  stroke: #000;
+  align-items: center;
+}
